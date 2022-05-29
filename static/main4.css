@@ -1,0 +1,221 @@
+.img1 {
+
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    width: 7%;
+    height: 7%; 
+    z-index: 10;
+    }
+
+.Bluebox {
+
+    position: fixed ;
+        background-color: #eef1fa;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        top: 8%;
+        right:0.05%
+}
+
+.People{
+
+    background-image: url('Office3.jpg');
+    position: absolute;
+    width: 18%;
+    height:65%;
+    left: 21%;
+    top: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 12;
+    opacity: 100%;
+}
+
+.Above{
+
+    position: absolute;
+    width: 18%;
+    height:65%;
+    left: 21%;
+    top: 15%;
+    z-index: 14;
+    background: linear-gradient(to bottom left, #EF8D9C 30%, #ffc39e 100%);
+    opacity: 70%;
+
+}
+
+.Info{
+
+    position: absolute;
+    background-color: rgb(255, 252, 252);
+    top: 15%;
+    height: 65%;
+    left:39%;
+    width: 37%;
+    z-index: 9;
+
+}
+
+.First{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    border-bottom: 3.5px solid #99dbb4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+.Last{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    border-bottom: 3.5px solid #99dbb4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+.User{
+  
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    border-bottom: 3.5px solid #99dbb4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    
+}
+
+.Email{
+  
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    border-bottom: 3.5px solid #99dbb4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    
+    
+}
+
+.Password{
+  
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 70%;
+    border-bottom: 3.5px solid #99dbb4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    
+}
+
+.Cpassword{
+  
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 70%;
+    border-bottom: 3.5px solid #99dbb4;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    
+}
+
+p{
+        position: absolute;
+        font-family: 'Calibri', serif;
+        font-size: 32px;
+        top:3%;
+        left: 29%;
+        color: #99dbb4;
+}
+
+input[type=submit] {
+    border-color: #99dbb4;
+
+    color: #99dbb4;
+    border: #99dbb4 3.5px solid;
+    font-family: 'Calibri', serif;
+    font-size: 20px;
+    margin-top: 25px;
+    width: 20%;
+    padding: 6px;
+    z-index: 100;
+    transition: all .5s ease;
+    position: absolute;
+    top: 78%;
+    left: 25%;
+    border-radius: 40px;
+    background-color: white;
+
+
+}
+
+input[type=submit]:hover {
+    background-color: #99dbb4;
+    cursor: pointer;
+    color: #f4f4f4;
+  }
+
+a{
+    border-color: #99dbb4;
+
+    color: #99dbb4;
+    border: #99dbb4 3.5px solid;
+    font-family: 'Calibri', serif;
+    font-size: 20px;
+    margin-top: 25px;
+    width: 18%;
+    padding: 6px;
+    z-index: 100;
+    transition: all .5s ease;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    border-radius: 40px;
+    background-color: white;
+}
+
+a:hover {
+    background-color: #99dbb4;
+    cursor: pointer;
+    color: #f4f4f4;
+  }
+
+ .Curves{
+     
+     border-radius: 10px;
+ }
+
+ .img2{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    opacity: 0.80;
+    right:32%;
+}
+
+.img3{
+
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    opacity: 0.80;
+    left:20%;
+    top: 40%;
+
+}
+.msg{
+    position: absolute;
+;
+    left:50%;
+    top: 80%;
+}

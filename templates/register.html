@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'main4.css' %}">
+    <script src='main4.js'></script>
+</head>
+<body>
+
+    <img src="{% static 'microsoft.svg' %}" class="img1">
+    <div class="Bluebox" >
+
+        <img src="{% static 'circlebackground.svg' %}" class="img2">
+        <div class="Curves">
+
+            <div class="People"> </div>
+        <div class="Above"></div>
+
+        <div class="Info">
+
+            <p>REGISTER HERE</p>
+
+            <form action="register" method="post">
+                {%csrf_token%}
+                <input type="text"name="first_name"placeholder="First Name" class="First"><br>
+                <input type="text"name="last_name"placeholder="Last Name" class="Last"><br>
+                <input type="text"name="username"placeholder="Username" class="User"><br>
+                <input type="email"name="email"placeholder="email" class="Email"><br>
+                <input type="password"name="password1"placeholder="Password" class="Password"><br>
+                <input type="password"name="password2"placeholder="Confirm Password" class="Cpassword"><br>
+                <input type="submit" class="Sub">
+            </form>
+  
+                    <a href="login">login</a>
+     
+
+        </div>
+        
+        </div>
+        <img src="{% static 'circlebackground.svg' %}" class="img3">
+        <div class="msg">
+            {%for message in messages%}
+            <h3>{{message}}</h3>
+            {%endfor%}
+        </div>
+    </div>
+</body>
+</html>

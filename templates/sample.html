@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Redirect</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'main2.css' %}">
+    <script src="{% static 'main.js' %}"></script>
+</head>
+<body>
+
+    <img src="{% static 'microsoft.svg' %}" class="img1">
+    <div class="logout">
+        <a href="Logout">Logout</a>
+    </div>
+    <div class="recognize">
+
+
+        <img src="{% static 'circlebackground.svg' %}" class="img2">
+        <div class="attend">
+            <p>Take a look at our latest face recognization based attendance system. Give it a minute to catch your beauty! </p>
+            <a href="Attendance">Take Attendance</a>
+
+
+        </div>
+        <div class="view">
+            <p>Take a look at the attendance-emotion sheet of the employees!!</p>
+            <a href="view_attendance"target="_blank">View Attendance</a>
+
+        </div>
+        <div class = "stats">
+            
+            <p>Click here to see statistics regarding <br>1.Sentiment Analysis<br>2.Attendance vs dates</p>
+            <a href="Statistics">Statistics</a>
+        </div>
+        
+        <img src="{% static 'circlebackground.svg' %}" class="img3">
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'main5.css' %}"">
+    <script src='main.js'></script>
+    <style>
+      a:link, a:visited {
+        background: linear-gradient(to bottom left, #1e0250 40%, #7979af 100%);
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        
+      }
+      
+      a:hover, a:active {
+        background-color: red;
+      }
+      </style>
+</head>
+<body>
+
+    <div class="Recognize">
+
+      <div class="message">
+        <p>Welcome to New-Age<br> Attendance-Emotion <br> Tracker</p>
+
+    </div>
+          <div class="reg">
+            <a href="account/register">register</a>
+          </div>
+          <div class="login">
+            <a href="account/login">login</a>
+          </div>
+
+    </div>
+
+</body>
+</html>
