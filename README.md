@@ -57,7 +57,7 @@ In the back-end that user needs to add the images of all the employees in the fo
 If the minimum face distance is > 0.5 then the person is marked unknown and the head would need to interfere.
 If the minimum face distance is < 0.5 ,it marks date,name,time,emotion of a person standing in front of frame and stores it in total_attendance.csv folder in static folder.
 
-## Corner cases:
+## Corner cases covered:
 1.When a code is run once,it will mark his/her attendance only once , no matter how many times the person comes in front of the camera.
 2.If a person's picture is not stored in Images_attendance folder the person's attendance would not be marked and he/she would appear unknown.
 
